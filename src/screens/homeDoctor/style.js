@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// Doctor home style 
 const styles = StyleSheet.create({
   containerHome: {
     backgroundColor: '#FFFFFF',
@@ -8,7 +9,6 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     width: deviceWidth(),
-    // justifyContent: 'space-between',
     padding: deviceWidth() * 0.05,
   },
   welcome: {

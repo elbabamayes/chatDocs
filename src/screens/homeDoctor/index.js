@@ -10,6 +10,8 @@ import {patient2} from '../../images';
 import {profile} from '../../images';
 import FlatButton from '../shared/button';
 
+// Doctor Home screen
+
 const data = [
   {
     img: patient1,
