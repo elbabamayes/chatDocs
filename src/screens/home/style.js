@@ -1,5 +1,7 @@
 import {StyleSheet} from 'react-native';
 
+// Videocall Home style
+
 const styles = StyleSheet.create({
   textContainer: {
     borderBottomWidth: 1,

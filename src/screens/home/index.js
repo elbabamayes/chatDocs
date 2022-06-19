@@ -5,6 +5,8 @@ import {useNavigation, useTheme} from '@react-navigation/native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import styles from './style';
 
+// Videocall Home screen
+
 const users = [
   {
     name: 'user1',
