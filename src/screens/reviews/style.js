@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// Reviews style
 const styles = StyleSheet.create({
   reviewStars: {
     marginTop: 80,
