@@ -18,8 +18,9 @@ import styles from './style';
 import {AuthContext} from '../../components/navigation/AuthProvider';
 import {APP_NAME, ACC_NAME} from '../../constants/index.json';
 import FlatButton from '../shared/button';
-console.log({APP_NAME, ACC_NAME});
 
+// Login Screen
+console.log({APP_NAME, ACC_NAME});
 // TEST
 let patient = 'Patient';
 let doctor = 'Doctor';
@@ -85,7 +86,6 @@ const Login = () => {
       return await client.login(userEmail, pass);
       // setAuthResults(authResult);
       // console.log({authResult});
-      // navigate('home');
     } catch (error) {
       return error;
       console.log({error});
@@ -222,17 +222,12 @@ const Login = () => {
                   </View>
                   <TouchableOpacity
                     onPress={handleSubmit}
-                    // onPress={() => navigate('home')}
                     style={styles.loginButton}>
                     <Text style={[styles.buttonActiveText, {color: '#FFFFFF'}]}>
                       Login
                     </Text>
                   </TouchableOpacity>
-                  <FlatButton
-                    text="Login"
-                    onPress={handleSubmit}
-                    // onPress={() => navigate('home')}
-                  />
+                  <FlatButton text="Login" onPress={handleSubmit} />
                   <Text style={styles.signUp}>Don't have an account?</Text>
                   <TouchableOpacity onPress={() => navigate('signup')}>
                     <Text style={styles.signUpText}>Sign Up</Text>
@@ -317,11 +312,7 @@ const Login = () => {
                       </Text>
                     </TouchableOpacity>
                   </View>
-                  <FlatButton
-                    text="Login"
-                    onPress={handleSubmit}
-                    // onPress={() => navigate('home')}
-                  />
+                  <FlatButton text="Login" onPress={handleSubmit} />
                   <Text style={styles.signUp}>Don't have an account?</Text>
                   <TouchableOpacity onPress={() => navigate('signup')}>
                     <Text style={styles.signUpText}>Sign Up</Text>

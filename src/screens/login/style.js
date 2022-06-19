@@ -1,6 +1,8 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// Login Style
+
 const styles = StyleSheet.create({
   logo: {
     width: deviceWidth() * 0.5,
