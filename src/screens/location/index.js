@@ -5,6 +5,8 @@ import {request, PERMISSIONS} from 'react-native-permissions';
 import FlatButton from '../shared/button';
 import {useNavigation} from '@react-navigation/native';
 
+// Location screen
+
 const Location = () => {
   const {navigate} = useNavigation();
   const [coords, setCoords] = useState({
