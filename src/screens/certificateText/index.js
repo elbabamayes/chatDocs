@@ -3,6 +3,8 @@ import {Text, ScrollView} from 'react-native';
 import {useNavigation, useRoute} from '@react-navigation/native';
 import styles from './style';
 
+// CertificateText Screen
+
 const CertificateTextScreen = () => {
   const {params} = useRoute();
   const {goBack, navigate} = useNavigation();

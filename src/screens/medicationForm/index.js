@@ -5,8 +5,9 @@ import firestore from '@react-native-firebase/firestore';
 import styles from './style';
 import FlatButton from '../shared/button';
 
-const doctorMedication = firestore().collection('doctorMedication');
+// MedicationForm Screen
 
+const doctorMedication = firestore().collection('doctorMedication');
 const MedicationFormScreen = () => {
   const {goBack, navigate} = useNavigation();
   const {params} = useRoute();

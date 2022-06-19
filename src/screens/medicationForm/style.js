@@ -1,6 +1,8 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// MedicationForm style
+
 const styles = StyleSheet.create({
   container: {
     padding: deviceWidth() * 0.05,
@@ -20,7 +22,6 @@ const styles = StyleSheet.create({
   errorText: {
     fontSize: 12,
     color: 'red',
-    // marginHorizontal: deviceWidth() * 0.05,
     textAlign: 'center',
     marginBottom: deviceHeight() * 0.02,
   },

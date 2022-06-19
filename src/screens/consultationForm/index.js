@@ -2,10 +2,11 @@ import React, {useState} from 'react';
 import {Text, ScrollView, TextInput, View} from 'react-native';
 import firestore from '@react-native-firebase/firestore';
 import {useNavigation, useRoute} from '@react-navigation/native';
-
 import styles from './style';
 import FlatButton from '../shared/button';
 const doctorConsultation = firestore().collection('doctorConsultation');
+
+// ConsultatieForm Screen
 
 const ConsultationFormScreen = () => {
   const {goBack, navigate} = useNavigation();

@@ -1,6 +1,8 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// MedicationText Style
+
 const styles = StyleSheet.create({
   container: {
     padding: deviceWidth() * 0.05,

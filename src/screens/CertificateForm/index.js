@@ -5,8 +5,9 @@ import {useNavigation, useRoute} from '@react-navigation/native';
 import styles from './style';
 import FlatButton from '../shared/button';
 
-const doctorCertificate = firestore().collection('doctorCertificate');
+// CertificateForm Screen
 
+const doctorCertificate = firestore().collection('doctorCertificate');
 const CertificateFormScreen = () => {
   const {goBack, navigate} = useNavigation();
   const {params} = useRoute();
@@ -82,7 +83,6 @@ const CertificateFormScreen = () => {
         <Text style={styles.text}>Title</Text>
         <TextInput
           style={styles.input}
-          placeholder="Consultation - 16/06"
           placeholder="Certificate of illness - 16/06"
           value={Title}
           onChangeText={value => setValues({...values, Title: value})}

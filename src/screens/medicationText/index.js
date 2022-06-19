@@ -3,6 +3,8 @@ import {Text, SafeAreaView, ScrollView, TextInput} from 'react-native';
 import {useRoute, useNavigation} from '@react-navigation/native';
 import styles from './style';
 
+// MedicationText Screen
+
 const MedicationTextScreen = () => {
   const {params} = useRoute();
   const {goBack, navigate} = useNavigation();
