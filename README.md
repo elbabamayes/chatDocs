@@ -77,18 +77,4 @@ Zoontek, Z. (z.d.). GitHub : An unified permissions API for React Native on iOS 
 
 Auteur: 
 Mayes.el.baba@student.ehb.be
- 
-Testverslag :
 
-El Baba Marwa, 19 jaar
-Student Verpleegkunde
-Marwa heeft de applicatie getest nadat tijdens de design fase, om te zien als alle Ui en Ux duidelijk is.
-Ze wou een account aanmaken en het is gelukt, maar ze wist niet hoelang mag de wachtwoord zijn en hoeveel nummers erin mogen komen. Ik heb haar hierbij gesteund. Hierna heeft ze zich ingelogd en wou een consultatie gesprek starten, alles ging vlot en was duidelijk hoe ze te werk moet gaan.
-Marwa vond de kleuren mooi en past bij de zorg, alles was simpel en fijn uitgewerkt. Ze heeft wel paar tips gegeven om de proces eenvoudiger te maken, bv: een wachtpagina tonen zodat de patiënt weet dat zijn aanvraag is ingediend en hij moet nu wachten op de doctor.
-Ik heb haar opmerking zeker genomen en een wachtpagina ontwikkelt en een validatie systeem toegevoegd aan de register formulier, om te weten hoelang het wachtwoord moet zijn.
-
-
-Alsaiqali Samar, 35 jaar 
-Moeder van 2 kineren
-Samar heeft de applicatie op haar Android gsm getest, ze vond het eenvoudige om te gebruiken. Ze wist welke stappen dat ze moet doen om een consultatie te starten, heeft rechten aan de applicatie gegeven en haar live locatie gedeeld. 
-Ze vond het een heel toffe applicatie en hoopt dat het ooit op de markt kan komen, omdat het eenvoudig is en veel tijd voor haar spendeert vooral voor haar als een moeder van 2 kinderen.
