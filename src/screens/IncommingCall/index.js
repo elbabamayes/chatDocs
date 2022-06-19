@@ -8,6 +8,8 @@ import {Voximplant} from 'react-native-voximplant';
 import {ios_background} from '../../images';
 import styles from './style';
 
+// Incomming call screen 
+
 Ionicons.loadFont();
 Entypo.loadFont();
 Feather.loadFont();

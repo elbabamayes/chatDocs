@@ -1,5 +1,7 @@
 import {StyleSheet} from 'react-native';
 
+// Incomming call style
+ 
 const styles = StyleSheet.create({
   root: {
     height: '100%',
