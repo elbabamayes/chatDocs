@@ -1,5 +1,7 @@
 import {StyleSheet} from 'react-native';
 
+// Call Style 
+
 const styles = StyleSheet.create({
   page: {
     flex: 1,

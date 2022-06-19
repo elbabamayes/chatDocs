@@ -1,8 +1,9 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
 import CallActionBox from '../../components/callActionBox';
-
 import styles from './style';
+
+// Call Screen
 const Call = () => {
   return (
     <View style={styles.page}>
