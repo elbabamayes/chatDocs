@@ -6,6 +6,9 @@ import {patient1} from '../../images';
 import {patient2} from '../../images';
 import {profile} from '../../images';
 import {AcceptButton} from '../shared/button';
+
+// WaitingList screen
+
 const data = [
   {
     img: patient1,

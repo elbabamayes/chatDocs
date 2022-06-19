@@ -1,6 +1,8 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// WaitingList style
+
 const styles = StyleSheet.create({
   containerWaiting: {
     backgroundColor: '#FFFFFF',
