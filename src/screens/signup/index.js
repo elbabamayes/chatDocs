@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
   Image,
   ScrollView,
-  Button,
 } from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {Formik} from 'formik';
@@ -19,6 +18,7 @@ import styles from './style';
 import {AuthContext} from '../../components/navigation/AuthProvider';
 import FlatButton from '../shared/button';
 
+// Sign up screen
 let patient = 'Patient';
 let doctor = 'Doctor';
 
@@ -123,9 +123,7 @@ const Signup = () => {
             onSubmit={(values, onSubmitProps) => {
               const {email, password, name} = values;
               register(email, password, name, remmeberChecked);
-              // onSubmitProps.setSubmitting(false);
               onSubmitProps.resetForm();
-              // onPress = () => navigate('home');
             }}
             validationSchema={validationSchemaPatient}>
             {({handleChange, handleBlur, handleSubmit, errors, values}) => {
