@@ -20,6 +20,8 @@ const doctorConsultation = firestore().collection('doctorConsultation');
 const doctorCertificate = firestore().collection('doctorCertificate');
 const doctorMedication = firestore().collection('doctorMedication');
 
+// Patient home screen
+
 const HomePatientScreen = () => {
   const {navigate} = useNavigation();
   const {isDoctor} = useContext(AuthContext);

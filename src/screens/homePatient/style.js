@@ -1,10 +1,11 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// Patient home style 
+
 const styles = StyleSheet.create({
   containerHome: {
     backgroundColor: '#FFFFFF',
-    // height: deviceHeight(),
   },
   container: {
     flexDirection: 'row',
