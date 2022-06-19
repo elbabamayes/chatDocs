@@ -3,6 +3,8 @@ import React from 'react';
 import WaitingLoader from '../shared/loader';
 import styles from './style';
 
+// Waiting screen
+
 const WaitingPageScreen = () => {
   return (
     <>

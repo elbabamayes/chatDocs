@@ -1,6 +1,8 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// Waiting style
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
