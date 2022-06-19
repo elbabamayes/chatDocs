@@ -7,6 +7,8 @@ import {LogoutButton} from '../shared/button';
 import IconRight from 'react-native-vector-icons/Feather';
 import auth from '@react-native-firebase/auth';
 
+// Profile screen
+
 const ProfileScreen = () => {
   const {navigate} = useNavigation();
   const logoutHandler = () => {

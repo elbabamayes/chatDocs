@@ -1,6 +1,8 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// Profile Style
+
 const styles = StyleSheet.create({
   containerProfile:{
     backgroundColor: '#FFFFFF',
