@@ -5,6 +5,7 @@ import {useNavigation} from '@react-navigation/native';
 import {logo} from '../../images';
 import styles from './style';
 
+// OnboardingScreen
 const Skip = ({...props}) => (
   <TouchableOpacity
     style={styles.buttonContainer}

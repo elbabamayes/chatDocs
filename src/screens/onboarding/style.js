@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 import {deviceHeight, deviceWidth} from '../../utiles/index';
 
+// Onboarding Styl
 const styles = StyleSheet.create({
   Dot: {
     width: 10,
