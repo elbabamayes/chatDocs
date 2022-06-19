@@ -10,9 +10,10 @@ import {
 import {useNavigation, useRoute} from '@react-navigation/native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {Voximplant} from 'react-native-voximplant';
-
 import CallActionBox from '../../components/callActionBox';
 import styles from './style';
+
+// Calling screen
 
 const permissions = [
   PermissionsAndroid.PERMISSIONS.RECORD_AUDIO,

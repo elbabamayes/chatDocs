@@ -1,5 +1,7 @@
 import {StyleSheet} from 'react-native';
 
+// Calling style 
+
 const style = StyleSheet.create({
   page: {
     height: '100%',
